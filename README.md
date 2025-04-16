@@ -19,4 +19,4 @@ This project was a great learning experience, reinforcing how structured program
 
 #GameDevelopment #CPP #Raylib #Programming #LearningJourney
 
-[![Creating KOBY: A Simple C++ Game with Raylib](https://img.youtube.com/vi/kxvuOGOsVgUfW8zo/0.jpg)]
+[[Creating KOBY: A Simple C++ Game with Raylib]](https://youtu.be/VtqIlVpEEj0?si=kxvuOGOsVgUfW8zo )

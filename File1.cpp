@@ -19,7 +19,6 @@ bool EvenTriggered(double interval) {
 
 int main(){
 	Color Blue = { 0, 0, 0, 0 };
-;
 	InitWindow(500, 620, "raylib Tetris"); // To create screen
 	SetTargetFPS(60); // Set the frame rate per second
 	Font font = LoadFontEx("Font/monogram.ttf", 64, 0, 0); // Load the font
@@ -37,6 +36,7 @@ int main(){
 		DrawTextEx(font, " Koby..", { 150, 260 }, 40, 4, YELLOW);
 		DrawTextEx(font, "      wants to build the Block \n   and try to gain maximum point.\n Please help him rules are simple", { 15, 300 }, 25, 3, WHITE);
 		DrawTextEx(font, "Press any key to start...", { 15, 450 }, 35, 3, WHITE);
+		DrawTextEx(font, "Developer Aditya", { 220, 580 }, 30, 3, RED);
 		int keyPressed = GetKeyPressed();
 		if (keyPressed) break;
 
@@ -85,6 +85,7 @@ int main(){
 
 		DrawTextEx(font, scoreText, { 360 + (0 - textSize.x) / 2, 70 }, 30, 2, RED);
 		DrawRectangleRounded({ 320, 215, 170, 180 }, (float)0.2, 6, darkGrey);
+		DrawTextEx(font, "Developer Aditya", { 320, 580 }, 15, 3, WHITE);
 		game.Draw(); // Call the draw function of the game object
 		EndDrawing();
 	}
